@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700,400italic');
+
+.postnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 3vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* align-items: center; */
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.active {
+    color: black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.inactive {
+    color: #8A8A8A;
+    cursor: pointer;
+}
+
+.postnav-side {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.write-post {
+    background-color: #EDEEF0;
+    padding: 10px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.group-button {
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px;
+}
+
+.join {
+    background-color: #2F6CE5;
+    color: white;
+    border: 1px solid #2F6CE5;
+}
+
+.leave {
+    color: black;
+    border: 1px solid black;
+}
+
+.button-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
