@@ -245,7 +245,7 @@ const Posts = () => {
       <div className="post">
         {data.map((index) => {
           return (
-            <div className="post-card">
+            <div className="post-card" key={index.tag}>
               <div style={{ width: "100%" }}>{index?.img}</div>
               <div className="content">
                 <div
