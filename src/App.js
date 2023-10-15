@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import PostNav from "./components/PostNav";
+import Posts from "./components/Posts";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Banner />
       <PostNav />
+      <Posts />
     </div>
   );
 }

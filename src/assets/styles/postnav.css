@@ -37,6 +37,7 @@
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 10px;
+    gap: 20px;
 }
 
 .write-post {
@@ -53,6 +54,7 @@
     cursor: pointer;
     width: fit-content;
     padding: 10px;
+    border-radius: 4px;
 }
 
 .join {
