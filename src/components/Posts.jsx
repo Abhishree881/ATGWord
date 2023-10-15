@@ -226,7 +226,7 @@ const Posts = () => {
     },
   ];
 
-  const [isEditing, setIsEditing] = useState(false);
+  const [isEditing, setIsEditing] = useState(true);
   const [text, setText] = useState("");
 
   const handleEditClick = () => {
